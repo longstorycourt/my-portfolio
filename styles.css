@@ -1,0 +1,25 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #333;
+    font-family: Helvetica, Georgia, Times, 'Times New Roman', serif;
+}
+nav, nav div, nav a, nav li, footer>p, hr{
+    background-color: #201f1f;
+    color: #fff;
+}
+hr {
+    margin: 1rem 0;
+    background-color: white;
+    border-bottom-color:white;
+    border: 1em;
+    opacity: 0.25;
+}
+  /* Override Bootstrap container classes if needed */
+.container, .container-fluid {
+    margin: 0;
+    padding: 0;
+}
