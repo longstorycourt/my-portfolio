@@ -19,7 +19,3 @@ hr {
     opacity: 0.25;
 }
   /* Override Bootstrap container classes if needed */
-.container, .container-fluid {
-    margin: 0;
-    padding: 0;
-}
