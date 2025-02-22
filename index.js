@@ -5,7 +5,7 @@ const extraContent = document.getElementById(`myExtracur`);
 aboutContent.innerHTML += `
     <h2>About Me</h2>
     <hr class="w-25 mx-auto">
-    <p class="mb-4 px-3 px-md-4 px-lg-5">I'm a third-year student at the department of Computer Science at the Royal University of Phnom Penh.<br> In spite of my lack of practical experiences in this field, I've worked on numerous school projects encompassing programming languages such as HTML, JavaScript, and Java. I have taken part in school club such as Learning Support Unit (LSU) as a mentor.</p>`;
+    <p class="mb-4 px-3 px-md-4 px-lg-5">I'm a third-year student at the department of Computer Science at the Royal University of Phnom Penh.<br> <span class="d-none d-md-block">In spite of my lack of practical experiences in this field, I've worked on numerous school projects encompassing programming languages such as HTML, JavaScript, and Java. I have taken part in school club such as Learning Support Unit (LSU) as a mentor.</span></p>`;
 
 myPracticalSkills = ['CSS', 'HTML', 'Java', 'JavaScript', 'Bootstrap', 'TailWind', 'C', 'C++'];
 myPracticalSkills.sort();
@@ -84,7 +84,7 @@ let extraItems = [{
     id: `005`,
     title: `The countryside`,
     src: `/img/fishing.JPG`,
-    desc: `Occasionally visit my hometown in Kampong Cham, bringing both fresh air and delightful insight.`,
+    desc: `Occasionally I visit my hometown in Kampong Cham, bringing both fresh air and delightful insight.`,
 },
 
 ];
